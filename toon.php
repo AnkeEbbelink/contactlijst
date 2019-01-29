@@ -22,15 +22,35 @@ $conn = new PDO ("mysql:host=localhost;dbname=contactlijst","root", "");
 // $stmt = $conn->query('SELECT * FROM deelnemers WHERE aantalkopjes >= 1');
 $stmt = $conn->query("SELECT * FROM contacten WHERE naam like '%$naamfilter%'");
 
+
+
+
+echo "<table border='1'>
+<tr>
+<th>Naam</th>
+<th>Email</th>
+<th>Toevoegen</th>
+<th> Verwijderen</th>
+</tr>";
 // antwoord van databse server opvragen
 // door het antwoord lopen,
 while ($row= $stmt -> fetch()){
-      echo "<LI>" . $row ['naam'] . " : " . $row ['email']; 
-      echo "<a href='naamverwijderen.php?naamid=" . $row['id'] . "'> Verwijder</a>"; 
-      echo "<a href='naamwijzigen.php?naamid=" . $row['id'] . "'> wijzigen</a>"; 
-      echo "</li>";
+      echo "<tr>";
+      echo "<td>" . $row['naam'] . "</td>";
+      echo "<td>" . $row['email'] . "</td>";
+      echo "<td>" . "<a href='naamwijzigen.php?naamid=" . $row['id'] . "'> wijzigen</a>" . "</td>"; 
+      echo "<td>" . "<a href='naamverwijderen.php?naamid=" . $row['id'] . "'> verwijderen</a>" . "</td>"; 
+      echo "</tr>";
+      echo "</tr>";
 }
 
+{
+    echo "<tr>";
+   
+   
+    }
+    echo "</table>";
+    
 
 //verbreek verbinding met database server.
 $conn =null;

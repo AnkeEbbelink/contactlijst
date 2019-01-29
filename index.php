@@ -2,6 +2,7 @@
 ?>
 
 <head>
+
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <link href="https://fonts.googleapis.com/css?family=Gruppo|Pacifico" rel="stylesheet"> 
@@ -32,10 +33,37 @@ a:link {
   
 }
 
-a:hover {
-  color: fff;
+tr:hover {background-color:#4CAF50;}
+
+
+
+th, td, tr{
+  padding: 25px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border: none;
+  color:#fff;
+  
 }
-   
+
+th {
+  background-color: #4CAF50;
+  color: white;
+ 
+}
+table {
+  border-collapse: collapse;
+  width: 60%;
+  position: relative;
+  margin-left:20vw;
+  background-color:#fff;
+  opacity:1;
+  background: rgba(76, 175, 80, 0.5);
+  
+}
+
+tr:hover {background-color:#3c3d3c 
+          opac;}
 </style>
 <body>
 
@@ -50,11 +78,13 @@ a:hover {
     <br>
     <br>
     <br>
-    <h3>
-    <?php
-    include("toon.php");
-    ?>
-</h3>
+  
+                   <h3>
+                     <?php
+                      include("toon.php");
+                    ?>
+                  </h3>
+
 
 <br>
 <br>
