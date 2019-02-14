@@ -15,73 +15,75 @@ body {
 }
 
 h1{
-    text-align: center;
-    font-size: 4vw;
-    color:#3c3d3c;
+    left:26vw;
+    font-size: 3vw;
+    margin-top:-5vw;
+    color: #4CAF50;
+    padding-top:vw;
+    position:absolute;
+    
 }
 
 h4{
     font-family: "mistral", "script";
-    font-size: 4vw;
-    text-align: center;
-    left:10vw;
-    margin-top:-3vw;
-    color:#fff;
+    font-size: 3.3vw;
+    text-align: left;
+    margin-left:45vw;
+    margin-top:-4.5vw;
+    color:#e7e7e7;
     text-shadow: 0.3vw 0.3vw 0.5vw 0vw #3c3d3c;
+    opacity:1;
 }
 
-.achter{
-        background-color:white;
-        height:20vw;
-        padding-top:1vw;
-        opacity:0.7;
-        margin-left:20vw;
-        margin-right:20vw;
-        padding-right:1.5vw;
-        border-radius:10px 10px 10px 10px;
 
-    }
-
-    .groen{
-        background-color:#fff;
-        height:4vw;
-        padding-top:0.1vw;
-        padding-bottom:0.1vw;
-        margin-top:-2vw;
-        margin-left:20vw;
-        margin-right:20vw;
-        padding-right:1.5vw;
-        border-radius:0px 0px 10px 10px;
-
-    }
 
     h2{
-        text-align: right;
+        top:20vw;
         font-size:1.5vw;
         margin-top:0.6vw;
+        position:left;
         
     
     }
+
+    button
+         {padding: 12.5px 40px;
+        background:#4CAF50;
+        Position:fixed;
+        text-decoration: none;
+        top:17.4vw;
+        border: none;
+  color: white;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    }
+
+    .knop{
+        margin-top:17vw;
+        position: relative;
+    }
 </style>
 <body>
-    
-
    
-    
-<br>
-<br>
-<div class="achter">     
-           <h1>:: Contactlijst Bootcamp ::</h1> 
-           <h4>..,before we all go our own way</h4><br>          
-           <h2><a href="contactlijst.html">Contacten toevoegen</a></h2>
-</div>
-                   
+<div class="knop">
+    <button> <h2><a href="contactlijst.html" >Contacten toevoegen</a></h2></button>
+    <h1>:: CONTACTLIJST BOOTCAMP ::</h1> 
+           <h4>..,before we all go our own way</h4> 
+      
+</div>          
+             
+           
+
+                  
  
- <div class="groen"></div>
-</div>            
+
+          
                  
        
-    </nav>
+   
 
   
     

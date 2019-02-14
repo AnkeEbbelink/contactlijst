@@ -54,7 +54,7 @@ th {
 table {
   border-collapse: collapse;
   width: 60%;
-  position: relative;
+  
   margin-left:20vw;
   background-color:#fff;
   opacity:1;
@@ -64,22 +64,22 @@ table {
 
 tr:hover {background-color:#3c3d3c 
           opac;}
+
+.footer{
+        background-color:#3c3d3c;
+        height:5vw;
+        width:100%;
+}
+
+p{
+  font-size:1vw;
+  text-align:center;
+  padding-top:2vw;
+  color: #fff;
+}
 </style>
 <body>
-
-
-<br>
-
-
-
-    
-    
-    <hr>
-    <br>
-    <br>
-    <br>
-  
-                   <h3>
+ <h3>
                      <?php
                       include("toon.php");
                     ?>
@@ -111,7 +111,7 @@ tr:hover {background-color:#3c3d3c
 
 
 </body>
-<div class="footer"> <footer> <p>Copyright © 2019 A.M Ebbelink</p>
+<div class="footer">  <p>Copyright © 2019 A.M Ebbelink</p>
 
-
-</footer></div>
+</footer>
+</div>
