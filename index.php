@@ -20,7 +20,9 @@
    
 <h1>:: CONTACTLIJST BOOTCAMP ::</h1> 
 
-<div class="positie">
+
+  <div class="container">
+  
        <h2><a href="contactlijst.html" >Contacten toevoegen</a></h2>
   </div>
          
@@ -28,12 +30,16 @@
     
 
   
-          
-<h3>
+        
+<div class="positie">
+  <h3>
+
   <?php
    include("toon.php");
   ?>
+
 </h3>
+</div>
 
 
 
@@ -41,3 +47,4 @@
 <footer><p>Copyright © 2019 A.M Ebbelink</p>
 
 </footer>
+
