@@ -1,3 +1,21 @@
+<head>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Gruppo|Pacifico" rel="stylesheet"> 
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Gruppo|Pacifico" rel="stylesheet">
+</head>
+<style>
+</style>
 
 <?php
 $naamid = $_GET ['naamid'];
@@ -26,12 +44,21 @@ $conn = null;
 
 	
 ?>
-<form action= "naamupdate.php" method="POST">
-    <input name="naamid" type="text"  placeholder="naamid" value="<?php echo $naamid ?>">
-    <input name="naam" type="text"  placeholder="naam" value="<?php echo $naam ?>">
-    <input name="email" type="text"  placeholder="email" value=<?php echo $email ?>>
+
+<div class="wijzigen">
+
+    <form action= "naamupdate.php" method="POST">
+        <div class="form-group col-lg-8">
+            <input name="naamid" type="text" class= "form-control"  placeholder="naamid" value="<?php echo $naamid ?>">
+        </div>
+        <div class="form-group col-lg-8">
+            <input name="naam" class= "form-control" type="text"  placeholder="naam" value="<?php echo $naam ?>">
+        <div>
+        <div class="form-group col-lg-8">
+            <input name="email" type="text" class= "form-control"  placeholder="email" value=<?php echo $email ?>>
+        </div>
    
-    <button type="submit">update</button> </form>
-
-
+        <button type="submit">update</button> 
+    </form>
+</div>
 

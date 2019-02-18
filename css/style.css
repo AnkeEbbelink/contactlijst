@@ -1,0 +1,111 @@
+body{
+    background-color: whitesmoke;
+}
+
+.hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  color:#fff;
+} 
+
+a:link {
+  color: green;
+  
+}
+
+tr:hover {background-color:#4CAF50;}
+
+
+
+th, td, tr{
+  padding: 25px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border: none;
+  color:#fff;
+  
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+ 
+}
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin-top:5vw;
+  margin-left:20vw;
+  background-color:#fff;
+  opacity:1;
+  background: rgba(76, 175, 80, 0.5);
+  
+}
+
+tr:hover {background-color:#4CAF50; 
+}
+
+p{
+  font-size:1vw;
+  text-align:center;
+  padding-top:2vw;
+  color: #fff;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.8vw;
+    color: #4CAF50;
+   
+            
+    }
+
+h2{
+    top:0vw;
+    font-size:1.5vw;
+    margin-top:0.6vw;
+    position:left;
+    text-decoration: none;
+                
+            
+    }
+        
+button{
+    background-color:#4CAF50;
+    Position:fixed;
+    color: #fff;
+    border: 1px solid #4CAF50;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    width:12.3vw;
+ 
+    }
+
+.positie
+{
+    margin-top:0vw;
+    margin-left:20vw;
+}
+
+.form-control {
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.wijzigen{
+   margin-top:15vw;
+   margin-left:42vw;
+   
+}
+        

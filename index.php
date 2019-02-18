@@ -1,117 +1,43 @@
-<?php include("navbar.php");
-?>
+
 
 <head>
 
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Gruppo|Pacifico" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Gruppo|Pacifico" rel="stylesheet">
 </head>
 <style>
-  
-    h3{
-        text-align: center;
-        font-size:1.5vw;
-        list-style-type: none;
-        line-height: 1.6;
-        
-    }
-
-    hr { 
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
-  color:#fff;
-} 
-
-a:link {
-  color: green;
-  
-}
-
-tr:hover {background-color:#4CAF50;}
-
-
-
-th, td, tr{
-  padding: 25px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-  border: none;
-  color:#fff;
-  
-}
-
-th {
-  background-color: #4CAF50;
-  color: white;
- 
-}
-table {
-  border-collapse: collapse;
-  width: 60%;
-  
-  margin-left:20vw;
-  background-color:#fff;
-  opacity:1;
-  background: rgba(76, 175, 80, 0.5);
-  
-}
-
-tr:hover {background-color:#3c3d3c 
-          opac;}
-
-.footer{
-        background-color:#3c3d3c;
-        height:5vw;
-        width:100%;
-}
-
-p{
-  font-size:1vw;
-  text-align:center;
-  padding-top:2vw;
-  color: #fff;
-}
 </style>
+
 <body>
- <h3>
-                     <?php
-                      include("toon.php");
-                    ?>
-                  </h3>
+   
+<h1>:: CONTACTLIJST BOOTCAMP ::</h1> 
 
+<div class="positie">
+       <h2><a href="contactlijst.html" >Contacten toevoegen</a></h2>
+  </div>
+         
+   
+    
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+  
+          
+<h3>
+  <?php
+   include("toon.php");
+  ?>
+</h3>
 
 
 
 </body>
-<div class="footer">  <p>Copyright © 2019 A.M Ebbelink</p>
+<footer><p>Copyright © 2019 A.M Ebbelink</p>
 
 </footer>
-</div>
