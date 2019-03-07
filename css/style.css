@@ -1,16 +1,14 @@
-.body {
-    background-image: url("img/pexels-photo-189378.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
 
   h3{
     text-align: center;
     font-size:1.5vw;
     list-style-type: none;
     line-height: 1.6;
+    font-family: 'ariel', sans-serif;
+
     
-}
+  }
 
 .hr { 
   display: block;
@@ -26,12 +24,18 @@
 
 
 
-a:link {
-  color: green;
+a:link, a:visited {
   
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
-tr:hover {background-color:#4CAF50;}
+a:hover, a:active {
+  text-decoration: none;
+}
 
 
 
@@ -92,13 +96,6 @@ p{
   color: #fff;
 }
 
-h1{
-    text-align: center;
-    font-size: 3.8vw;
-    color: #4CAF50;
-   
-            
-    }
 
 h2{
     top:0vw;
@@ -127,7 +124,7 @@ button{
 {
     margin-top:0vw;
     border-collapse: collapse;
-    
+    font-family: 'Thasadith', sans-serif;
     width: 80%;
     background: rgba(76, 175, 80, 0.5);
     text-align: center;
@@ -146,14 +143,38 @@ button{
     color: #4CAF50;
     border: 1px solid #4CAF50;
     text-align: center;
-    padding: 15px;
+    width:100px;
     font-weight: 600;
     margin-bottom: 15px;
+    
 }
 
 .wijzigen{
-   margin-top:15vw;
-   margin-left:42vw;
+   position: absolute;
+   top:10vw;
+   left:33vw;
    
 }
+
+.buttonupdate{
+  position: relative;
+  top:10vw;
+  left:-20vw;
+}
         
+.header{
+  color:green;
+  font-size:5vw;
+  font-family: 'Luckiest Guy', cursive;
+ 
+}
+
+
+.container{
+  position: relative;
+  z-index:1 ;
+}
+
+.boot{
+  background-color:black;
+}

@@ -12,34 +12,45 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Gruppo|Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Orbitron|Thasadith" rel="stylesheet"> 
 </head>
 <style>
+
+html, body {
+    background-color:black;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 </style>
 
 <body>
+  
    
-<h1>:: CONTACTLIJST BOOTCAMP ::</h1> 
+    <div class="header">
+    :: CONTACTLIJST BOOTCAMP ::
+    </div>
 
-
-  <div class="container">
+    <div class="container">
   
        <h2><a href="contactlijst.html" >Contacten toevoegen</a></h2>
-  </div>
+    </div>
          
    
     
 
   
         
-<div class="positie">
-  <h3>
+    <div class="positie">
+    <h3>
 
-  <?php
+    <?php
    include("toon.php");
-  ?>
+    ?>
+ 
+    </h3>
 
-</h3>
-</div>
 
 
 

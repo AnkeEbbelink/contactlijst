@@ -53,12 +53,13 @@ $conn = null;
         </div>
         <div class="form-group col-lg-8">
             <input name="naam" class= "form-control" type="text"  placeholder="naam" value="<?php echo $naam ?>">
-        <div>
-        <div class="form-group col-lg-8">
-            <input name="email" type="text" class= "form-control"  placeholder="email" value=<?php echo $email ?>>
         </div>
+        <div class="form-group col-lg-8">
+            <input name="email" class= "form-control" type="text" placeholder="email" value="<?php echo $email ?>">
+        </div>
+        <br><br><br>
    
-        <button type="submit">update</button> 
+        <button type="submit" class="buttonupdate">update</button> 
     </form>
 </div>
 

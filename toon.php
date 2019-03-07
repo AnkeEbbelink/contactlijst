@@ -39,10 +39,10 @@ echo "<table>
 
 <tr>
 
-<th>Naam</th>
-<th>Email</th>
-<th>Toevoegen</th>
-<th> Verwijderen</th>
+<td><b>Naam</b></td>
+<td><b>Email</b></td>
+<td><b>Toevoegen</b></td>
+<td><b> Verwijderen</b></td>
 </tr> "
 ;
 // antwoord van databse server opvragen
