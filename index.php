@@ -17,11 +17,7 @@
 </head>
 <style>
 
-html, body {
-    background-color:black;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
 
 </style>
 
@@ -30,13 +26,14 @@ html, body {
    
     <div class="header">
     :: CONTACTLIJST BOOTCAMP ::
-    </div>
-
-    <div class="container">
-  
-       <h2><a href="contactlijst.html" >Contacten toevoegen</a></h2>
-    </div>
-         
+      <div class="button">
+        <div class="row">
+          <div class="col-md-4 col-lg-2">
+            <a href="contactlijst.html" class="btn btn-success" role="button">Contacten toevoegen</a>
+          </div>  
+        </div>
+      </div>   
+    </div>     
    
     
 
@@ -50,9 +47,7 @@ html, body {
     ?>
  
     </h3>
-
-
-
+</div>
 
 </body>
 <footer><p>Copyright © 2019 A.M Ebbelink</p>

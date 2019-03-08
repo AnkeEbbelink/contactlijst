@@ -1,4 +1,8 @@
-
+html, body {
+  background-color:black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
   h3{
     text-align: center;
@@ -164,8 +168,10 @@ button{
         
 .header{
   color:green;
-  font-size:5vw;
+  font-size:6vw;
   font-family: 'Luckiest Guy', cursive;
+  margin-left: 10vw;
+  margin-top:5vw;
  
 }
 
@@ -173,8 +179,14 @@ button{
 .container{
   position: relative;
   z-index:1 ;
+  left:-5;
 }
 
 .boot{
   background-color:black;
+}
+
+.button{
+  font-family: 'Thasadith', sans-serif;
+  
 }
