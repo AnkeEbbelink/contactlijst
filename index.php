@@ -1,7 +1,6 @@
 
 
 <head>
-
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Gruppo|Pacifico" rel="stylesheet"> 
@@ -16,41 +15,27 @@
 <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Orbitron|Thasadith" rel="stylesheet"> 
 </head>
 <style>
-
-
-
 </style>
 
 <body>
-  
-   
-    <div class="header">
+  <div class="header">
     :: CONTACTLIJST BOOTCAMP ::
-      <div class="button">
-        <div class="row">
-          <div class="col-md-4 col-lg-2">
-            <a href="contactlijst.html" class="btn btn-success" role="button">Contacten toevoegen</a>
-          </div>  
-        </div>
-      </div>   
-    </div>     
-   
-    
-
-  
-        
-    <div class="positie">
+    <div class="button">
+      <div class="row">
+        <div class="col-md-4 col-lg-2">
+          <a href="contactlijst.html" class="btn btn-success" role="button">Contacten toevoegen</a>
+        </div>  
+      </div>
+    </div>   
+  </div>     
+  <div class="positie">
     <h3>
-
-    <?php
-   include("toon.php");
-    ?>
- 
+      <?php
+        include("toon.php");
+      ?>
     </h3>
-</div>
-
+  </div>
 </body>
 <footer><p>Copyright © 2019 A.M Ebbelink</p>
-
 </footer>
 

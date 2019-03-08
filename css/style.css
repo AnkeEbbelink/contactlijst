@@ -2,7 +2,7 @@ html, body {
   background-color:black;
   background-repeat: no-repeat;
   background-size: cover;
-}
+  }
 
   h3{
     text-align: center;
@@ -14,36 +14,36 @@ html, body {
     
   }
 
-.hr { 
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
-  color:#4CAF50;
-  text-align: center;
-} 
+  .hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color:#4CAF50;
+    text-align: center;
+  } 
 
 
 
-a:link, a:visited {
+  a:link, a:visited {
   
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
 
-a:hover, a:active {
-  text-decoration: none;
-}
+  a:hover, a:active {
+    text-decoration: none;
+  }
 
 
 
-td  {
+  td  {
     padding: 10px;
     text-align: center;
     border-bottom: 1px solid #ddd;
@@ -53,13 +53,13 @@ td  {
     
   }
 
-th{
+  th{
     border: none;
     text-align: center;
     padding: 10px;
     color:#fff;
     padding-left:2vw;
-}
+  }
 
  tr{
 
@@ -68,8 +68,8 @@ th{
     text-align: center;
     padding-left:10vw;
     border: none;
-}
-table {
+  }
+  table {
     border-collapse: collapse;
     width: 100%;
     background: rgba(76, 175, 80, 0.5);
@@ -79,29 +79,23 @@ table {
     line-height: 3;
     text-align:center;
     padding-left:3vw;
-    
-    
-    
-    
-    
-    
   }
 
 
-tr:hover {background-color:#4CAF50;
+  tr:hover {background-color:#4CAF50;
    
 
-}
+  }
 
-p{
-  font-size:1vw;
-  text-align:center;
-  padding-top:2vw;
-  color: #fff;
-}
+  p{
+    font-size:1vw;
+    text-align:center;
+    padding-top:2vw;
+    color: #fff;
+  }
 
 
-h2{
+  h2{
     top:0vw;
     font-size:1.5vw;
     margin-top:0.6vw;
@@ -111,7 +105,7 @@ h2{
             
     }
         
-button{
+  button{
     background-color:#4CAF50;
     Position:fixed;
     color: #fff;
@@ -124,8 +118,7 @@ button{
  
     }
 
-.positie
-{
+  .positie{
     margin-top:0vw;
     border-collapse: collapse;
     font-family: 'Thasadith', sans-serif;
@@ -141,9 +134,9 @@ button{
     
     margin-left:10vw;
     
-}
+  }
 
-.form-control {
+  .form-control {
     color: #4CAF50;
     border: 1px solid #4CAF50;
     text-align: center;
@@ -151,22 +144,22 @@ button{
     font-weight: 600;
     margin-bottom: 15px;
     
-}
+  }
 
-.wijzigen{
+  .wijzigen{
    position: absolute;
    top:10vw;
    left:33vw;
    
-}
+  }
 
-.buttonupdate{
+  .buttonupdate{
   position: relative;
   top:10vw;
   left:-20vw;
-}
+  }
         
-.header{
+  .header{
   color:green;
   font-size:6vw;
   font-family: 'Luckiest Guy', cursive;
@@ -176,17 +169,16 @@ button{
 }
 
 
-.container{
+  .container{
   position: relative;
   z-index:1 ;
   left:-5;
-}
+  }
 
-.boot{
+  .boot{
   background-color:black;
-}
+  }
 
-.button{
-  font-family: 'Thasadith', sans-serif;
-  
-}
+  .button{
+    font-family: 'Thasadith', sans-serif;
+  }
